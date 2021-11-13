@@ -60,11 +60,11 @@ Tất nhiên, nếu sách không tồn tại thì hệ thống sẽ báo không 
 
 Đây là phần implementation của việc nhập lại sách từng phút:
 
-![Function 7 image](/assets/function_7.png)
+![Function 7 image](/assets/function_7.PNG)
 
 Còn đây là phần hiển thị logging đã thực hiện nhập lại sách và thời gian xử lý các request:
 
-![Function 7_2 image](/assets/function_7_2.png)
+![Function 7_2 image](/assets/function_7_2.PNG)
 
 Để thuận lợi cho việc chấm bài, Collection Postman của em **đã được đính kèm trong /postman**. 
 
