@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "90aee256-45e0-4ea3-80cd-82285d7e6d22",
+		"name": "springboot2-homework1-NguyenDuyThaiSon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get books sorted by title in ascending alphabetic order",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getBooksByABC",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getBooksByABC"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find book containing keyword",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getBooksByABC",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getBooksByABC"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generate 1000 books",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/generate",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get unavailable books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getUnavailableBooks",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getUnavailableBooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buy books",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/buyBooks?bookId=400&amount=15",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"buyBooks"
+					],
+					"query": [
+						{
+							"key": "bookId",
+							"value": "400"
+						},
+						{
+							"key": "amount",
+							"value": "15"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
